@@ -1,3 +1,5 @@
+![logo](https://github.com/SankalpKarthi3/codebot/blob/6c32b35167b98f3793ace3715e7459f5282d4bd6/images/greengenie.png)
+
 # GreenGenie
 ## How to use it?
 
