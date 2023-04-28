@@ -1,9 +1,17 @@
 ![logo](https://github.com/SankalpKarthi3/codebot/blob/6c32b35167b98f3793ace3715e7459f5282d4bd6/images/greengenie.png)
   
 # GreenGenie
+This is a GPT-3.5 based LLM application made for the purpose of assissting with Climate Change and Weather Forecasting fundamentally and broadly for anything that's good for us and our environment. Have fun with it until our API tokens are available :)
+
 ## How to use it?
 
 Pretty easy I guess you can just [Click Here to Try the latest GreenGenie](https://sankalpkarthi3-streamlit-prompt-ws-gptbot-c8ccvy.streamlit.app/)
+
+## Example Runs below
+
+![a](https://github.com/SankalpKarthi3/codebot/blob/09fb540b19aebdde204249857b96138e8cc89ba6/images/Screenshot%20from%202023-04-28%2017-10-39.png)
+![b](https://github.com/SankalpKarthi3/codebot/blob/09fb540b19aebdde204249857b96138e8cc89ba6/images/Screenshot%20from%202023-04-28%2017-39-05.png)
+![c](https://github.com/SankalpKarthi3/codebot/blob/09fb540b19aebdde204249857b96138e8cc89ba6/images/Screenshot%20from%202023-04-28%2017-40-25.png)
 
 ## How to run it locally?
 
