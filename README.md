@@ -10,8 +10,16 @@ Pretty easy I guess you can just [Click Here to Try the latest GreenGenie](https
 ## Example Runs below
 
 ![a](https://github.com/SankalpKarthi3/codebot/blob/09fb540b19aebdde204249857b96138e8cc89ba6/images/Screenshot%20from%202023-04-28%2017-10-39.png)
+
+In the above image you can notice that it is working perfectly fine for a weathercasting application that runs on the data which was cutoff on September of 2021.
+
 ![b](https://github.com/SankalpKarthi3/codebot/blob/09fb540b19aebdde204249857b96138e8cc89ba6/images/Screenshot%20from%202023-04-28%2017-39-05.png)
+
+When we asked about crypto-mining GreenGeenie gives us a reply different from what a general LLM like ChatGPT gives, this reply is more towards the foundations we're based upon which you can clearly notice in the 2nd paragraph.
+
 ![c](https://github.com/SankalpKarthi3/codebot/blob/09fb540b19aebdde204249857b96138e8cc89ba6/images/Screenshot%20from%202023-04-28%2017-40-25.png)
+
+When we asked our kid about who's Shah Rukh Khan("King of Bollywood") it introduces us to him by telling the basics and about how he has influenced our environment/ecology.
 
 ## How to run it locally?
 
