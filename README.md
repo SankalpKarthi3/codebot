@@ -7,7 +7,9 @@ This is a GPT-3.5 based LLM application made for the purpose of assissting with 
 
 Pretty easy I guess you can just [Click Here to Try the latest GreenGenie](https://sankalpkarthi3-streamlit-prompt-ws-gptbot-c8ccvy.streamlit.app/)
 
+
 ![you](https://github.com/SankalpKarthi3/codebot/blob/0bf9d1398e90ae1115dd7d7a887c00a46416eb14/images/you.png) ----> `This is you :)`
+
 
 ![genie](https://github.com/SankalpKarthi3/codebot/blob/0bf9d1398e90ae1115dd7d7a887c00a46416eb14/images/genie.png) ----> `Here's your Genie`
 
