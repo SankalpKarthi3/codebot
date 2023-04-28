@@ -1,6 +1,7 @@
 # GreenGenie
+## How to use it?
 
-[Click Here to Try the latest GreenGenie](https://sankalpkarthi3-streamlit-prompt-ws-gptbot-c8ccvy.streamlit.app/)
+Pretty easy I guess you can just [Click Here to Try the latest GreenGenie](https://sankalpkarthi3-streamlit-prompt-ws-gptbot-c8ccvy.streamlit.app/)
 
 ## How to run it locally?
 
