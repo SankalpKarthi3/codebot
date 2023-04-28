@@ -1,0 +1,11 @@
+numpy
+pandas
+streamlit
+plotly
+streamlit-chat
+chromadb
+langchain
+unstructured
+unstructured[local-inference]
+gradio
+cohere
