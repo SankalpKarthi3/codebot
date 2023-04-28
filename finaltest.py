@@ -50,6 +50,7 @@ def new_chat():
 
 
 st.title("GreenGenie v3.0")
+st.subheader("Inspire Change")
 
 #API
 api = st.sidebar.text_input("API-Key", type="password")
