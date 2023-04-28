@@ -50,7 +50,7 @@ def new_chat():
 
 
 st.title("GreenGenie")
-st.markdown("## Inspire Change")
+st.markdown("#### Inspire Change")
 
 #API
 api = st.sidebar.text_input("API-Key", type="password")
