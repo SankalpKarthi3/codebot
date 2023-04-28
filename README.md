@@ -1,4 +1,4 @@
-![logo](images/greengenie.png)
+![logo](images/greengenie-min.png)
   
 # GreenGenie
 This is a GPT-3.5 based LLM application made for the purpose of assisting with Climate Change and Weather Forecasting fundamentally and broadly for anything that's good for us and our environment. Have fun with it until our API tokens get exhausted or maybe use our code and create your own genie :)
@@ -8,10 +8,10 @@ This is a GPT-3.5 based LLM application made for the purpose of assisting with C
 Pretty easy I guess you can just [Click Here to Try the latest GreenGenie](https://sankalpkarthi3-streamlit-prompt-ws-gptbot-c8ccvy.streamlit.app/)
 
 
-![you](https://github.com/SankalpKarthi3/codebot/blob/0bf9d1398e90ae1115dd7d7a887c00a46416eb14/images/you.png) ----> `This is you :)`
+![you](images/you-min.png) ----> `This is you :)`
 
 
-![genie](https://github.com/SankalpKarthi3/codebot/blob/0bf9d1398e90ae1115dd7d7a887c00a46416eb14/images/genie.png) ----> `Here's your Genie`
+![genie](images/genie-min.png) ----> `Here's your Genie`
 
 ## Example Runs below
 
