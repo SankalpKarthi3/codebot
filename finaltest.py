@@ -49,8 +49,8 @@ def new_chat():
     st.session_state.entity_memory.buffer.clear()
 
 
-st.title("GreenGenie v3.0")
-st.subheader("Inspire Change")
+st.title("GreenGenie")
+st.subheader("Inspire Change", font_size = 12)
 
 #API
 api = st.sidebar.text_input("API-Key", type="password")
