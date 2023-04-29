@@ -48,10 +48,7 @@ def new_chat():
     st.session_state.entity_memory.store = {}
     st.session_state.entity_memory.buffer.clear()
 
-
-st.text("--------------------------------")
 st.markdown("# GreenGenie")
-st.text("--------------------------------")
 st.markdown("#### Inspire Change")
 
 #API
@@ -66,13 +63,14 @@ with st.sidebar.expander(" 🛠️ Settings ", expanded=False):
         st.write(st.session_state.entity_memory.buffer)
     MODEL = st.selectbox(label='Model', options=['gpt-3.5-turbo','text-davinci-003','text-davinci-002','code-davinci-002'])
     k = st.number_input(' (#)Summary of prompts to consider',min_value=3,max_value=1000)
+    temperature = st.slider('Temperature', min_value = 0.0, max_value = 1.0, step = 0.1)
 
 if api:
 
     #Create OpenAI instace
 
     llm = OpenAI(
-            temperature = 0.5,
+            temperature = temperature,
             openai_api_key = api,
             model_name = MODEL
             )
