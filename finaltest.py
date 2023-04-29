@@ -49,8 +49,9 @@ def new_chat():
     st.session_state.entity_memory.buffer.clear()
 
 
+st.text("--------------------------------")
 st.markdown("# GreenGenie")
-st.text("---------------------------------------")
+st.text("--------------------------------")
 st.markdown("#### Inspire Change")
 
 #API
