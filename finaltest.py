@@ -48,7 +48,7 @@ def new_chat():
     st.session_state.entity_memory.store = {}
     st.session_state.entity_memory.buffer.clear()
 
-st.image("https://github.com/SankalpKarthi3/codebot/blob/f67e37ee839c68b9c6c47dbd9a7fa87972698820/images/greengenie.png")
+st.image("https://photos.app.goo.gl/JeJer6tmt395tyot6")
 st.markdown("# GreenGenie")
 st.markdown("#### Inspire Change")
 
