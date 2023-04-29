@@ -50,7 +50,7 @@ def new_chat():
 
 
 st.markdown("# GreenGenie")
-st.text("-------------------------")
+st.text("---------------------------------------")
 st.markdown("#### Inspire Change")
 
 #API
