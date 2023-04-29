@@ -32,21 +32,21 @@ def get_text():
                                label_visibility="hidden")
     return input_text
 
-#New Chat
-def new_chat():
-    """
-    Clears session state and starts a new chat.
-    """
-    save = []
-    for i in range(len(st.session_state['generated'])-1, -1, -1):
-        save.append("User:" + st.session_state["past"][i])
-        save.append("Bot:" + st.session_state["generated"][i])        
-    st.session_state["stored_session"].append(save)
-    st.session_state["generated"] = []
-    st.session_state["past"] = []
-    st.session_state["input"] = ""
-    st.session_state.entity_memory.store = {}
-    st.session_state.entity_memory.buffer.clear()
+# #New Chat
+# def new_chat():
+#     """
+#     Clears session state and starts a new chat.
+#     """
+#     save = []
+#     for i in range(len(st.session_state['generated'])-1, -1, -1):
+#         save.append("User:" + st.session_state["past"][i])
+#         save.append("Bot:" + st.session_state["generated"][i])        
+#     st.session_state["stored_session"].append(save)
+#     st.session_state["generated"] = []
+#     st.session_state["past"] = []
+#     st.session_state["input"] = ""
+#     st.session_state.entity_memory.store = {}
+#     st.session_state.entity_memory.buffer.clear()
 
 st.markdown("# GreenGenie")
 st.markdown("#### Inspire Change")
@@ -55,9 +55,6 @@ st.markdown("#### Inspire Change")
 api = st.sidebar.text_input("API-Key", type="password")
 
 with st.sidebar.expander(" 🛠️ Settings ", expanded=False):
-    # Option to preview memory store
-    if st.checkbox("Preview memory store"):
-        st.write(st.session_state.entity_memory.store)
     # Option to preview memory buffer
     if st.checkbox("Preview memory buffer"):
         st.write(st.session_state.entity_memory.buffer)
