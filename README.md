@@ -1,4 +1,4 @@
-![gg]("images/greengenie-min.png")
+![gg](images/greengenie-min.png)
 # GreenGenie
 This is a GPT-3.5 based LLM application made for the purpose of assisting with Climate Change and Weather Forecasting fundamentally and broadly for anything that's good for us and our environment. Have fun with it until your API tokens get exhausted. Use them wisely :)
 
