@@ -1,5 +1,5 @@
 # GreenGenie
-This is a GPT-3.5 based LLM application made for the purpose of assisting with Climate Change and Weather Forecasting fundamentally and broadly for anything that's good for us and our environment. Have fun with it until our API tokens get exhausted or maybe use our code and create your own genie :)
+This is a GPT-3.5 based LLM application made for the purpose of assisting with Climate Change and Weather Forecasting fundamentally and broadly for anything that's good for us and our environment. Have fun with it until your API tokens get exhausted. Use them wisely :)
 
 ## How to use it?
 
