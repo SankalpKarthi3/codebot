@@ -1,4 +1,4 @@
-<p align = center> <img src="https://github.com/SankalpKarthi3/green_genie/blob/c6d4d3005df4679807942403d37e13b7b7073919/images/greengenie-min.png"> </p>
+<p align = center> <img src="images/green_genie_banner.png"> </p>
 
 # GreenGenie
 This is a GPT-3.5 based LLM application made for the purpose of assisting with Climate Change and Weather Forecasting fundamentally and broadly for anything that's good for us and our environment. Have fun with it until your API tokens get exhausted. Use them wisely :)
