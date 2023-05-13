@@ -5,7 +5,7 @@ He is a GPT-3.5 based flexible and customizable LLM application that was made fo
 
 ## How to use it?
 
-Pretty easy I guess, you can just [Click Here to wake Nansen up](https://nansen-ai.streamlit.app/)
+Pretty easy I guess, you can just [Click Here to wake Nansen up !!!](https://nansen-ai.streamlit.app/)
 - Go to the side menu and enter down your API key from OpenAI.
 - Extend the Settings tab
 - Select the Model you need from the dropdown. (`gpt-3.5-turbo` being the most powerful)
@@ -27,7 +27,7 @@ We have 4 different options available right now, after introducing Sherlock as t
 What you use is based on the purpose of your visit, enjoy all the flavours ;)
 
 ## First look at Sherlock
-Let's see the difference between how Sherlock answers and how ChatGPT answers:
+Where does it help over ChatGPT? Why try this when ChatGPT is available? Best to try it on your own, anyways here's a first look into Sherlock's missions.
 <p align = center> <img src="images/fridtjofnansen.png"> </p>
 
 <p align = center>---------------</p>
