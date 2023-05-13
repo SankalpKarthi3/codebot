@@ -1,12 +1,11 @@
-<p align = center> <img src="images/nansendow2.png" width="500"> </p>
+<p align = center> <img src="images/nansendow2.png" width="450"> </p>
 
 # About Nansen
-He is a GPT-3.5 based flexible and customizable LLM application that was made for the purpose of assisting with Climate Change and Weather Forecasting fundamentally and broadly for anything that's good for us and our environment. But on the way he has been curated to do more that just that. And he'll be updated once in while for quite some time. Have fun with it until your API tokens get exhausted. Use them wisely :)
+He is a GPT-3.5 based flexible and customizable LLM application that was made for the purpose of assisting with Climate Change and Weather Forecasting fundamentally and broadly for anything that's good for us and our environment. But on the way he has been curated to do more that just that. And he'll be updated once in a while for quite some time. Have fun with it until your API tokens get exhausted. Use them wisely :)
 
 ## How to use it?
 
-Pretty easy I guess you can just [Click Here to wake nansen up](https://nansen-ai.streamlit.app/)
-- Not so simple.
+Pretty easy I guess, you can just [Click Here to wake Nansen up](https://nansen-ai.streamlit.app/)
 - Go to the side menu and enter down your API key from OpenAI.
 - Extend the Settings tab
 - Select the Model you need from the dropdown. (`gpt-3.5-turbo` being the most powerful)
