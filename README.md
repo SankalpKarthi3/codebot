@@ -1,4 +1,4 @@
-<p align = center> <img src="images/nansenaidow.png"> </p>
+<p align = center> <img src="images/nansendow2.png"> </p>
 
 # About Nansen
 He is a GPT-3.5 based flexible and customizable LLM application that was made for the purpose of assisting with Climate Change and Weather Forecasting fundamentally and broadly for anything that's good for us and our environment. But on the way he has been curated to do more that just that. And he'll be updated once in while for quite some time. Have fun with it until your API tokens get exhausted. Use them wisely :)
@@ -37,7 +37,7 @@ Let's see the difference between how Sherlock answers and how ChatGPT answers:
 
 <p align = center>---------------</p>
 
-<p align = center> <img src="albert_einstein_chatgpt.png"> </p>
+<p align = center> <img src="images/albert_einstein_chatgpt.png"> </p>
 
 <p align = center>---------------</p>
 
