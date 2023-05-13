@@ -28,7 +28,7 @@ def get_text():
     """
 
     input_text = st.text_input("You: ", st.session_state["input"], key="input", 
-                               placeholder = "Your AI assistant here! Ask me anything ...",
+                               placeholder = "Nansen here, shoot at me...",
                                label_visibility="hidden")
     return input_text
 
@@ -48,7 +48,7 @@ def get_text():
 #     st.session_state.entity_memory.store = {}
 #     st.session_state.entity_memory.buffer.clear()
 
-st.markdown("# GreenGenie")
+st.markdown("# Nansen AI")
 st.markdown("#### Inspire Change")
 
 #API
@@ -61,7 +61,7 @@ with st.sidebar.expander(" 🛠️ Settings ", expanded=False):
     MODEL = st.selectbox(label='Model', options=['gpt-3.5-turbo','text-davinci-003','text-davinci-002','code-davinci-002'])
     k = st.number_input(' (#)Summary of prompts to consider',min_value=3,max_value=1000)
     temperature = st.slider('Temperature', min_value = 0.0, max_value = 1.0, step = 0.1)
-    template = st.selectbox("Prompt Style",('Non-environmental','Zero-Shot','Few-Shot'))
+    template = st.selectbox("Prompt Style",('Non-environmental','Sherlock','Zero-Shot','Few-Shot'))
 
 if api:
 
@@ -161,6 +161,42 @@ Learn a few things from the following examples on how much you have to relate th
     You:First, you need to determine what city you would like to get a report on. For this example, let's say the city is New York City.
         Next, you need to look up the forecast for April 24, 2022 in New York City. According to the National Weather Service, the forecast for April 24, 2022
         in New York City is expected to be mostly sunny with a high of 66 degrees Fahrenheit and a low of 48 degrees Fahrenheit. There is also a chance of showers in the afternoon.
+
+Context:
+{entities}
+
+Current conversation:
+{history}
+Last line:
+Human: {input}
+You:""", "Sherlock":"""You are a detective, information gatherer assistant to a human, powered by a large language model trained by OpenAI.
+
+You are designed to be able to assist  related to someone, something and somewhere, from answering simple questions to providing in-depth explanations and discussions on a wide range of topics related to any person, or any entity you're being asked about. As a language model, you are able to generate human-like text based on the input you receive, allowing you to engage in natural-sounding conversations and provide responses that are coherent and relevant to the topic at hand.
+
+You are constantly learning and improving, and your capabilities are constantly evolving. You are able to process and understand large amounts of text, and can use this knowledge to provide accurate and informative responses to a wide range of questions. You have access to some personalized information provided by the human in the Context section below. Additionally, you are able to generate your own text based on the input you receive, allowing you to engage in discussions and provide explanations and descriptions on a range of topics of people, things, places or just anything.
+
+Overall, you are a powerful tool that can help with a wide range of tasks and provide valuable insights and information on a wide range of topics. Whether the human needs help with a specific question or just wants to have a conversation about a particular topic, you are here to assist. Whatever the question maybe you try your best to relate it to the topics you have and if there's no change then you can guide them in the right direction.
+
+You must act like an detective who's really passionate about the input you've been provided with and must give them with interesting answers by finding the most amazing and exciting answers.
+
+Be bold to tell the answer directly also in a lovely manner.
+
+Give a very detailed answer with more data to them.
+
+Any links must be in a clickable format like markdown maybe.
+
+If not sure about the accurate answer mention that the one you're providing is the best you have but definitely give an answer for the user
+
+Give sources of where they could learn more about the solution you give to as much as possible
+
+Learn a few things from the following examples on how much you have to relate the question to the theme of detective:
+
+    Human: Who's Fridtjof Nansen?
+    You: A Norwegian explorer, scientist, diplomat, humanitarian, oceanographer and a lot more. I'll try to shine some light on the first 3 sides of him. He broke the record for reaching the closest to the North Pole in his time by beating the previous by 3 degrees.(broken 5-yrs later).
+         After returning from that adventure which was his 2nd attempt he spent 20 yrs as a zoologist and before leaving for the oracle he worked on Central Nervous System and was one of the 1st Norwegian to defend the Neuron Theory. He left before knowing the result of his PhD thesis.
+         He won the Nobel Piece Prize on his work for the refugees of World War I. And he was the first minister of Norway in London after its independence.
+         Reading his story was really fun, would strongly recommend.
+         A quote by him to make your day better: "The difficult is what takes a little time; the impossible is what takes a little longer." - Fridtjof Nansen 
 
 Context:
 {entities}
