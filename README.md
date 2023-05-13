@@ -1,11 +1,20 @@
-<p align = center> <img src="images/green_genie_banner.png"> </p>
+<p align = center> <img src="images/nansenaidow.png"> </p>
 
-# GreenGenie
-This is a GPT-3.5 based LLM application made for the purpose of assisting with Climate Change and Weather Forecasting fundamentally and broadly for anything that's good for us and our environment. Have fun with it until your API tokens get exhausted. Use them wisely :)
+# About nansen
+This is a GPT-3.5 based flexible and customizable LLM application that was made for the purpose of assisting with Climate Change and Weather Forecasting fundamentally and broadly for anything that's good for us and our environment. But on the way it has been curated to do more that just that. Have fun with it until your API tokens get exhausted. Use them wisely :)
 
 ## How to use it?
 
-Pretty easy I guess you can just [Click Here to Try the latest GreenGenie](https://sankalpkarthi3-streamlit-prompt-ws-gptbot-c8ccvy.streamlit.app/)
+Pretty easy I guess you can just [Click Here to wake nansen up](https://sankalpkarthi3-codebot-final-nm9pzk.streamlit.app/)
+- Not so simple.
+- Go to the side menu and enter down your API key from OpenAI.
+- Extend the Settings tab
+- Select the Model you need from the dropdown.(`gpt-3.5-turbo` being the most powerful)
+- Enter the Summary of prompts as in the number of previous messages to consider while answering you(Your `history` can be customized)
+- Temperature - here's the magic, 0 to 1 is the range of randomness, 1 being the highest(recommended by our testing team : `5`)
+- Prompt Style decides which side of Nansen you need to see.
+
+## What are the different prompts?
 
 ## Example Runs below
 
