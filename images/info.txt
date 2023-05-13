@@ -1,2 +1,0 @@
-This directory contains all the images seen in this github repository or anything related to it.
-Use it anywhere if such a situation arises ;)
