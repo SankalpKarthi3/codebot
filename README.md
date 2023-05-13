@@ -1,4 +1,4 @@
-<p align = center> <img src="images/nansendow2.png"> </p>
+<p align = center> <img src="images/nansendow2.png" width="500"> </p>
 
 # About Nansen
 He is a GPT-3.5 based flexible and customizable LLM application that was made for the purpose of assisting with Climate Change and Weather Forecasting fundamentally and broadly for anything that's good for us and our environment. But on the way he has been curated to do more that just that. And he'll be updated once in while for quite some time. Have fun with it until your API tokens get exhausted. Use them wisely :)
