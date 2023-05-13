@@ -5,7 +5,7 @@ He is a GPT-3.5 based flexible and customizable LLM application that was made fo
 
 ## How to use it?
 
-Pretty easy I guess you can just [Click Here to wake nansen up](https://sankalpkarthi3-codebot-final-nm9pzk.streamlit.app/)
+Pretty easy I guess you can just [Click Here to wake nansen up](https://nansen-ai.streamlit.app/)
 - Not so simple.
 - Go to the side menu and enter down your API key from OpenAI.
 - Extend the Settings tab
