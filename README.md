@@ -15,9 +15,13 @@ Pretty easy I guess, you can just [Click Here to wake Nansen up](https://nansen-
 
 ## What are the different prompts?
 We have 4 different options available right now, after introducing Sherlock as the latest.
+
 -Sherlock is the costume of Nansen where you can learn some interesting information about anything you ask in a concise easy to understand manner. It investigates for you and gives you what you want
+
 -Non-Environmetal is just the model you choose with little to no change.
+
 -Zero-Shot is where the environmental responsibility kicks in with a little bit of passion and answers only domain-specific answers, but you can ask anything
+
 -Few-Shot is a little more passionate,it is a 60 year old Nanson retired from teaching environmental studies lecturing his grandchildren with a lot of details he learnt in his life
 
 What you use is based on the purpose of your visit, enjoy all the flavours ;)
